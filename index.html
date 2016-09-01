@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cat Pizzazz!</title>
+	    <!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+			<!-- Optional theme -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+			<style>
+				body {
+					background: #eee;
+					margin: 5%;
+				}
+
+				#catchphrase {
+					font-weight: bold;
+				}
+
+			</style>
+
+  </head>
+  <body>
+    <h1>Cat Pizzazz!</h1>
+    <p>How much cat knowledge do you think you can handle? Type a number -- or just say what you want to know!</p>
+    <input id="get_facts" type="text" name="name" value="">
+    <input id="submit" type="button" name="name" value="Lookup Cat Fact(s)">
+    <br>
+    <p>Random Kitty Says: "<span id="catchphrase">Meow meow meow meow meow!</span>"</p>
+    <img id="cat_pic" src="http://thecatapi.com/api/images/get?format=src&type=jpg&size=small&" height="250">
+    <br>
+   	<br>
+
+    <div>
+      <ol id="results">
+
+      </ol>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
+    <script type="text/javascript" src="pizzaz.js">
+    </script>
+  </body>
+</html>
